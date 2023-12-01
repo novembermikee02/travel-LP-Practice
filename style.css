@@ -109,7 +109,7 @@ main {
 }
 
 .home {
-  background: url("images/banner.jpg");
+  background: url("images/home.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -352,9 +352,10 @@ main {
 /* About us  */
 .about-us {
   margin-top: 15vh;
-  padding: 10vh 6vw;
-  background-color: var(--secondary-light-color);
-  height: 80vh;
+  padding: 0vh 6vw;
+  background-color: var(--secondary-color);
+  /* background-color: #f9c028; */
+  height: 95vh;
 }
 .about-us-row {
   display: flex;
@@ -595,13 +596,13 @@ main {
   padding-bottom: 20vh;
   border-radius: 10px;
   text-align: center;
-  background-image: url("images/banner.jpg");
-  /* background-color: aqua; */
-  /* background-size: cover; */
+  background-image: url("images/contact-bg.jpg");
+  background-color: aqua;
+  background-size: cover;
 }
 
 .contact-us h1 {
-  color: var(--primary-color);
+  color: var(--white);
   font-size: xx-large;
   margin-bottom: 3vh;
 }
@@ -611,7 +612,7 @@ main {
 
 .contact-us p {
   font-size: small;
-  color: var(--secondary-light-color);
+  color: var(--white);
   margin-bottom: 4vh;
 }
 
@@ -949,7 +950,7 @@ input[type="text"] {
 */
 
 footer {
-  background-color: var(--secondary-light-color);
+  background-color: var(--secondary-color);
   padding: 5vh 8vw;
 }
 .first-row {
